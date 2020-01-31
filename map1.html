@@ -18,6 +18,8 @@ window.onload = function() {
 	map.setZoom(16)
 	map.panTo([ 35.169824,136.879056 ]) // 安兵衛
 	map.addIcon(35.169824,136.879056,"安兵衛","icon/megane.png",64)
+	map.addIcon(35.169824,136.879056,"富士山","icon/megane.png",64)
+	
 	map.on('click',(e)=>alert(e.latlng))
 }
 
